@@ -38999,7 +38999,9 @@ var months = ["January", "February", "March", "April", "May", "June", "July", "A
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 date.innerText = "".concat(days[current.getDay()], ", ").concat(months[current.getMonth()], " ").concat(current.getDate(), ", ").concat(current.getFullYear()); // UIkit.notification('Are We Good');
 
-var imgSliderContainer = document.querySelector('.img-hover');
+var imgSliderContainer = document.querySelector('.img-hover'); // let apd = pageYOffset.bind(this);
+// console.log(apd);
+
 var classesArray = ['active-1', 'active-2', 'active-3'];
 var x = 0;
 var imgSlideInterval = setInterval(function () {
@@ -39019,7 +39021,7 @@ imgSliderContainer.addEventListener('mouseleave', function () {
       x = 0;
     }
 
-    imgSliderContainer.setAttribute("class", "img-hover ".concat(classesArray[x]));
+    imgSliderContainer.setAttribute("class", "img-hover mt:20px ".concat(classesArray[x]));
     x++;
   }, 4000);
 });
@@ -39034,7 +39036,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).foundation();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\MyPortfolio\plppa\src\assets\js\app.js */"./src/assets/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\MartianJS\Dev\plppa\src\assets\js\app.js */"./src/assets/js/app.js");
 
 
 /***/ })
